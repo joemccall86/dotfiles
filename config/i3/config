@@ -90,6 +90,11 @@ bindsym $mod+space focus mode_toggle
 # focus the parent container
 bindsym $mod+a focus parent
 
+# Screenshots!
+bindsym $mod+Print exec --no-startup-id scrot "/home/joe/Pictures/Screenshots/screenshot-%F-%T.png"
+bindsym $mod+Shift+Print exec --no-startup-id scrot -s "/home/joe/Pictures/Screenshots/screenshot-%F-%T.png"
+
+
 # focus the child container
 #bindsym $mod+d focus child
 
@@ -175,11 +180,12 @@ bindsym $mod+r mode "resize"
 bar {
   status_command i3status
   #status_command $HOME/bin/conky-i3bar.sh
-  tray_output primary
+  tray_output dvi-d-1 #primary
   tray_padding 0 px
   #status_command python /usr/share/powerline/i3/powerline-i3.py
   #font pango:Fira Code 8
   #status_command i3-dstatus clock
+# Black color
 #  colors {
 #    separator #ffffff
 #    background #3c3b37
@@ -189,8 +195,18 @@ bar {
 #    inactive_workspace #3c3b37 #3c3b37 #aea79f
 #    urgent_workspace #FF0000 #FF0000 #ffffff
 #  }
-# Colors now managed by j4-make-config. This is the required marker
-# $i3-theme-bar
+  colors {
+       background #2F343F
+        statusline #F9FAF9
+        separator  #454947
+
+#                      	   border  backgr. text
+        focused_workspace  #F9FAF9 #232729 #FDF6E3
+        active_workspace   #595B5B #353836 #FDF6E3
+        inactive_workspace #595B5B #2F343F #49505F
+        binding_mode       #232729 #2C2C2C #F9FAF9
+        urgent_workspace   #232729 #FDF6E3 #E5201D
+  }
 }
 
 
@@ -225,10 +241,23 @@ bindsym $mod+x debuglog toggle
 #client.unfocused #3c3b37 #3c3b37 #aea79f #3c3b37
 #client.urgent #FF0000 #FF0000 #ffffff #FF0000
 
-# Replaced with the marker for j4-make-config
-# $i3-theme-window
+## class                 border  backgr. text    indicator
+#client.focused          #808090 #606070 #C0C0C5 #2e9ef4
+#client.focused_inactive #5F5F6F #303040 #707075 #484e50
+#client.unfocused        #5F5F5F #303030 #808080 #292d2e
+## alternative colouring - the other way round
+##client.focused_inactive #5F5F5F #303030 #808080 #292d2e
+##client.unfocused        #5F5F6F #303040 #707075 #484e50
+#client.urgent           #2f343a #900000 #ffffff #900000
 
+# Arc Dark (attempt)
+client.focused          #404552 #404552 #9BA2B3 #FDF6E3  #666A76
+client.focused_inactive #2F343F #2F343F #595F6D #454948
+client.unfocused        #2F343F #2F343F #595F6D #454948
+client.urgent           #CB4B16 #FDF6E3 #1ABC9C #268BD2
+client.placeholder      #000000 #0c0c0c #ffffff #000000 
 
+client.background       #2B2C2B
 
 # Borders
 default_border normal 1
