@@ -22,3 +22,6 @@ export PATH=$HOME/.node/bin:$PATH
 # Kubectl bash completion
 type -t kubectl > /dev/null  &&  source <(kubectl completion bash)
 type -t minikube > /dev/null && source <(minikube completion bash)
+
+# Aliases
+alias i3conf="vim ~/.config/i3/config"

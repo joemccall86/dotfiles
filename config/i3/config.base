@@ -180,15 +180,17 @@ bar {
   #status_command python /usr/share/powerline/i3/powerline-i3.py
   #font pango:Fira Code 8
   #status_command i3-dstatus clock
-  colors {
-    separator #ffffff
-    background #3c3b37
-    statusline #ffffff
-    focused_workspace #526532 #526532 #ffffff
-    active_workspace #aea79f #aea79f #3c3b37
-    inactive_workspace #3c3b37 #3c3b37 #aea79f
-    urgent_workspace #FF0000 #FF0000 #ffffff
-  }
+#  colors {
+#    separator #ffffff
+#    background #3c3b37
+#    statusline #ffffff
+#    focused_workspace #526532 #526532 #ffffff
+#    active_workspace #aea79f #aea79f #3c3b37
+#    inactive_workspace #3c3b37 #3c3b37 #aea79f
+#    urgent_workspace #FF0000 #FF0000 #ffffff
+#  }
+# Colors now managed by j4-make-config. This is the required marker
+# $i3-theme-bar
 }
 
 
@@ -213,13 +215,20 @@ bindsym XF86AudioPrev exec playerctl previous
 # Enable debug log
 bindsym $mod+x debuglog toggle
 
+# COLORS
+# Green Color (reminds me of Ubuntu MATE or Mint)
 # class                 border  backgr. text    indicator child_border
-client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
+#client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
+#
+#client.focused #526532 #526532 #ffffff #a4cb64
+#client.focused_inactive #aea79f #aea79f #3c3b37 #aea79f
+#client.unfocused #3c3b37 #3c3b37 #aea79f #3c3b37
+#client.urgent #FF0000 #FF0000 #ffffff #FF0000
 
-client.focused #526532 #526532 #ffffff #a4cb64
-client.focused_inactive #aea79f #aea79f #3c3b37 #aea79f
-client.unfocused #3c3b37 #3c3b37 #aea79f #3c3b37
-client.urgent #FF0000 #FF0000 #ffffff #FF0000
+# Replaced with the marker for j4-make-config
+# $i3-theme-window
+
+
 
 # Borders
 default_border normal 1
