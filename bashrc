@@ -9,7 +9,7 @@ fi
 # export SYSTEMD_PAGER=
 
 # User specific aliases and functions
-if [ -d ~/liquidprompt/liquidprompt ]; then
+if [ -f ~/liquidprompt/liquidprompt ]; then
 	source ~/liquidprompt/liquidprompt
 fi
 
