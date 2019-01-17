@@ -41,6 +41,7 @@ bindsym $mod+Shift+q kill
 # shipping a .desktop file. It is a wrapper around dmenu, so you need that
 # installed.
 bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
+bindsym $mod+Shift+d exec --no-startup-id dmenu_run
 
 # change focus
 bindsym $mod+j focus left
@@ -245,7 +246,13 @@ bindsym $mod+u border none
 #for_window [class="Klipper"] floating enable, border none
 #for_window [class="Plasmoidviewer"] floating enable, border none
 
+for_window [class="jetbrains-toolbox"] floating enable
+
+# For root window, use tiling. For all other windows, use floating
+for_window [class="jetbrains-idea"] floating enable
+for_window [class="jetbrains-idea" title="^.* - IntelliJ IDEA"] floating disable
+
 
 # Execute startup applications
-exec --no-startup-id /home/joe/.local/share/JetBrains/Toolbox/bin/jetbrains-toolbox
+exec --no-startup-id /home/joe/.local/share/JetBrains/Toolbox/bin/jetbrains-toolbox --minimize
 exec --no-startup-id kdeconnect-indicator
