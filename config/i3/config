@@ -196,7 +196,7 @@ bar {
 #    urgent_workspace #FF0000 #FF0000 #ffffff
 #  }
   colors {
-       background #2F343F
+        background #2F343F
         statusline #F9FAF9
         separator  #454947
 
