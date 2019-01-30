@@ -101,10 +101,10 @@ bindsym $mod+Shift+Print exec --no-startup-id scrot -s "/home/joe/Pictures/Scree
 # Define names for default workspaces for which we configure key bindings later on.
 # We use variables to avoid repeating the names in multiple places.
 set $ws1 "1: Firefox "
-set $ws2 "2: IDE "
-set $ws3 "3: Spotify "
-set $ws4 "4: Chat "
-set $ws5 "5: Email"
+set $ws2 "2: Email"
+set $ws3 "3: IDE "
+set $ws4 "4: Spotify "
+set $ws5 "5: Chat "
 set $ws6 "6"
 set $ws7 "7"
 set $ws8 "8"
@@ -113,9 +113,10 @@ set $ws10 "10"
 
 # Bind different window classes to a specific workspace
 assign [class="Firefox"] $ws1
-assign [class="jetbrains-idea"] $ws2
-assign [class="Spotify"] $ws3
-assign [class="Slack"] $ws4
+assign [class="Thunderbird"] $ws2
+assign [class="jetbrains-idea"] $ws3
+assign [class="Spotify"] $ws4
+assign [class="Slack"] $ws5
 
 # switch to workspace
 bindsym $mod+1 workspace $ws1
@@ -218,9 +219,9 @@ exec --no-startup-id compton --config ~/.config/compton.conf -b
 exec --no-startup-id feh --bg-scale ~/Pictures/Wallpapers/hhlp-zen3.png
 
 # Pulse Audio controls
-bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 1 -5% #decrease sound volume
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 1 +5% #increase sound volume
-bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 1 toggle # mute sound
+bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5% #decrease sound volume
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5% #increase sound volume
+bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle # mute sound
 
 # Media player controls
 bindsym XF86AudioPlay exec playerctl play-pause
