@@ -14,6 +14,7 @@ minimum_release_age = "0"
 "~/.config/ghostty" = { mode = "track" }
 "~/.config/git/ignore" = { mode = "track" }
 "~/.config/helix" = { mode = "track" }
+"~/.config/jj/config.toml" = { mode = "track" }
 "~/.config/mise/config.toml" = { mode = "track" }
 "~/.config/starship.toml" = { mode = "track" }
 

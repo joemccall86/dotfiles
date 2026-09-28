@@ -1,0 +1,27 @@
+#:schema https://docs.jj-vcs.dev/latest/config-schema.json
+
+[user]
+name = "Joe McCall"
+email = "joe.mccall@includedhealth.com"
+
+[signing]
+behavior = "own"
+backend = "gpg"
+key = "894336FCD7B901F9DFA1984D79B7392AE1703E4B"
+
+[ui]
+# diff-formatter = ["difft", "--color=always", "--display=side-by-side", "--syntax-highlight=on", "$left", "$right"]
+# Make this git-style to help out agents that might not have a lot of context around jj-style diffs
+conflict-marker-style = "git"
+pager = ["delta", "-n", "-s"]
+diff-formatter = ":git"
+
+[aliases]
+# jj util exec -- sh -c "jj diff --name-only --from 'trunk()' --to @ | xargs pre-commit run --files"
+# pc = ["util", "exec", "--", "sh", "-c", "jj diff --name-only --from 'trunk()' --to @ | xargs pre-commit run --files"]
+# Git-worktree exports help to support jj workspaces for the pre-commit tooling.
+pc = ["util", "exec", "--", "sh", "-c", """
+    export GIT_DIR="$(jj workspace root --name default)/.git"
+    export GIT_WORK_TREE="$(jj workspace root)"
+    jj diff --name-only --from 'trunk()' --to @ | xargs pre-commit run --files
+"""]
