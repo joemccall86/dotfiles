@@ -18,4 +18,7 @@ minimum_release_age = "0"
 "~/.config/karabiner/karabiner.json" = { mode = "track" }
 "~/.config/mise/config.toml" = { mode = "track" }
 "~/.config/starship.toml" = { mode = "track" }
+"~/.config/zed/keymap.json" = { mode = "track" }
+"~/.config/zed/settings.json" = { mode = "track" }
+"~/.config/zed/tasks.json" = { mode = "track" }
 

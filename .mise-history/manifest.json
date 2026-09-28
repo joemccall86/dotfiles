@@ -48,6 +48,24 @@
       "autosave": true,
       "encrypt": false,
       "variants": []
+    },
+    {
+      "path": "home/.config/zed/keymap.json",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
+      "path": "home/.config/zed/settings.json",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
+      "path": "home/.config/zed/tasks.json",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
     }
   ],
   "exclude": [],
@@ -55,6 +73,7 @@
   "permissions": {
     "home/.config": 489,
     "home/.config/karabiner": 448,
-    "home/.config/karabiner/karabiner.json": 384
+    "home/.config/karabiner/karabiner.json": 384,
+    "home/.config/zed/settings.json": 384
   }
 }
