@@ -1,0 +1,12 @@
+keybind = ctrl+m=text:\x0D
+keybind = ctrl+[=text:\x1B
+keybind = ctrl+h=text:\x08
+
+command = /opt/homebrew/bin/nu
+font-family = "0xProto"
+font-feature = "+ss01"
+
+macos-titlebar-style = tabs
+theme = "warm-burnout-dark"
+macos-shortcuts = "allow"
+macos-option-as-alt = "true"

@@ -11,6 +11,7 @@ minimum_release_age = "0"
 
 [dotfiles]
 "~/.config/btop" = { mode = "track" }
+"~/.config/ghostty" = { mode = "track" }
 "~/.config/mise/config.toml" = { mode = "track" }
 "~/.config/starship.toml" = { mode = "track" }
 
