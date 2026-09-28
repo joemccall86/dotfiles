@@ -1,0 +1,13 @@
+[tools]
+"npm:@statsig/siggy" = "latest"
+"npm:@fission-ai/openspec" = "latest"
+"npm:@mermaid-js/mermaid-cli" = "latest"
+"pipx:mlx" = "latest"
+"pipx:mlx-lm" = "latest"
+twg = { version = "latest", bin = "twg", checksum_url = "https://teamwork-graph.atlassian.com/cli/SHA256SUMS-v{{ version }}", platforms = { windows-arm64 = { bin = "twg.exe", url = "https://teamwork-graph.atlassian.com/cli/twg-windows-arm64-v{{ version }}.exe" }, windows-x64 = { bin = "twg.exe", url = "https://teamwork-graph.atlassian.com/cli/twg-windows-x64-v{{ version }}.exe" } }, url = 'https://teamwork-graph.atlassian.com/cli/twg-{{ os(macos="darwin") }}-{{ arch() }}-v{{ version }}', version_json_path = ".version", version_list_url = "https://teamwork-graph.atlassian.com/cli/manifest.json" }
+[tools."github:anthropics/claude-code"]
+version = "latest"
+minimum_release_age = "0"
+
+[dotfiles]
+"~/.config/mise/config.toml" = { mode = "track" }
