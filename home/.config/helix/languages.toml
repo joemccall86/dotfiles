@@ -1,0 +1,12 @@
+[language-server.codebook]
+command = "codebook-lsp"
+args = ["serve"]
+
+# Example use in markdown:
+[[language]]
+name = "markdown"
+language-servers = ["codebook", "markdown-oxide"]
+
+[[language]]
+name = "ruby"
+file-types = ["rb", "rakefile", "Rakefile", "Gemfile", "Brewfile", ".Brewfile", { glob = ".Brewfile" }]
