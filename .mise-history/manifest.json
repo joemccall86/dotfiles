@@ -20,6 +20,12 @@
       "variants": []
     },
     {
+      "path": "home/.config/git/ignore",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
       "path": "home/.config/starship.toml",
       "autosave": true,
       "encrypt": false,
