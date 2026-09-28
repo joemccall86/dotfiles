@@ -10,4 +10,5 @@ version = "latest"
 minimum_release_age = "0"
 
 [dotfiles]
+"~/.config/atuin" = { mode = "track" }
 "~/.config/mise/config.toml" = { mode = "track" }

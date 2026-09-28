@@ -6,9 +6,19 @@
       "autosave": true,
       "encrypt": false,
       "variants": []
+    },
+    {
+      "path": "home/.config/atuin",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
     }
   ],
   "exclude": [],
   "recipients": [],
-  "permissions": {}
+  "permissions": {
+    "home/.config": 489,
+    "home/.config/atuin": 448,
+    "home/.config/atuin/config.toml": 384
+  }
 }
