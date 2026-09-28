@@ -38,6 +38,12 @@
       "variants": []
     },
     {
+      "path": "home/.config/karabiner/karabiner.json",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
       "path": "home/.config/starship.toml",
       "autosave": true,
       "encrypt": false,
@@ -47,6 +53,8 @@
   "exclude": [],
   "recipients": [],
   "permissions": {
-    "home/.config": 489
+    "home/.config": 489,
+    "home/.config/karabiner": 448,
+    "home/.config/karabiner/karabiner.json": 384
   }
 }

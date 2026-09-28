@@ -15,6 +15,7 @@ minimum_release_age = "0"
 "~/.config/git/ignore" = { mode = "track" }
 "~/.config/helix" = { mode = "track" }
 "~/.config/jj/config.toml" = { mode = "track" }
+"~/.config/karabiner/karabiner.json" = { mode = "track" }
 "~/.config/mise/config.toml" = { mode = "track" }
 "~/.config/starship.toml" = { mode = "track" }
 
