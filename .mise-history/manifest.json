@@ -72,6 +72,12 @@
       "autosave": true,
       "encrypt": false,
       "variants": []
+    },
+    {
+      "path": "home/.gnupg/gpg-agent.conf",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
     }
   ],
   "exclude": [],
@@ -80,6 +86,7 @@
     "home/.config": 489,
     "home/.config/karabiner": 448,
     "home/.config/karabiner/karabiner.json": 384,
-    "home/.config/zed/settings.json": 384
+    "home/.config/zed/settings.json": 384,
+    "home/.gnupg": 448
   }
 }
