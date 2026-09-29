@@ -115,7 +115,7 @@
         "mode": "agent"
       },
       "type": "custom",
-      "command": "/Users/joe.mccall/.local/bin/cursor-agent",
+      "command": "/Users/joe.mccall/.local/share/mise/shims/cursor-agent",
       "args": ["acp"]
     },
     "claude-acp": {
