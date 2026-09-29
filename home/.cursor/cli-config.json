@@ -243,7 +243,7 @@
   "privacyCache": {
     "ghostMode": true,
     "privacyMode": 2,
-    "updatedAt": 1790708076985
+    "updatedAt": 1790712424659
   },
   "autoReviewAvailabilityCache": {
     "backendUrl": "https://api2.cursor.sh",
