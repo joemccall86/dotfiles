@@ -22,4 +22,5 @@ minimum_release_age = "0"
 "~/.config/zed/settings.json" = { mode = "track" }
 "~/.config/zed/tasks.json" = { mode = "track" }
 "~/.cursor/cli-config.json" = { mode = "track" }
+"~/.gpg/gpg-agent.conf" = { mode = "track" }
 
