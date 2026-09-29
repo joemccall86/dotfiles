@@ -124,7 +124,7 @@
   },
   "terminal": {
     "shell": {
-      "program": "zsh",
+      "program": "/bin/zsh",
     },
     "font_family": "0xProto", // -> => == <|>
     "font_features": {
