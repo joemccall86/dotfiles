@@ -21,4 +21,5 @@ minimum_release_age = "0"
 "~/.config/zed/keymap.json" = { mode = "track" }
 "~/.config/zed/settings.json" = { mode = "track" }
 "~/.config/zed/tasks.json" = { mode = "track" }
+"~/.cursor/cli-config.json" = { mode = "track" }
 

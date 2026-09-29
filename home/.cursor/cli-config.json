@@ -1,0 +1,289 @@
+{
+  "permissions": {
+    "allow": [
+      "Shell(ls)",
+      "Shell(cd)",
+      "Shell(mkdir)",
+      "Shell(jj)",
+      "Shell(echo)",
+      "Shell(type)",
+      "Shell(git symbolic-ref)",
+      "Shell(head)",
+      "Shell(cat)",
+      "Shell(gh)",
+      "Mcp(mcp-router:status)",
+      "Mcp(mcp-router:bookmark-list)",
+      "Shell(git show)",
+      "Shell(git ls-tree)",
+      "Mcp(plugin-context-mode-context-mode:ctx_doctor)",
+      "Shell(sed)",
+      "Mcp(mcp-router:new)",
+      "Mcp(mcp-router:edit)",
+      "Mcp(mcp-router:commit)",
+      "Mcp(mcp-router:bookmark-set)",
+      "WebFetch(cursor.com)",
+      "Mcp(mcp-router:log)",
+      "Mcp(mcp-router:show)",
+      "Shell(rtk)",
+      "Shell(git branch)",
+      "Shell(test)",
+      "Shell(git rev-parse)",
+      "Shell(which)",
+      "Shell(glean-cli)",
+      "Shell(command)",
+      "Shell(find)",
+      "Shell(acli)",
+      "Shell(glean)",
+      "Shell(jq)",
+      "Shell(tee)",
+      "Shell(rg)",
+      "Write(/Users/joe.mccall/src/github.com/ConsultingMD/janus/platform/add-router-bypass.yaml)",
+      "Shell(asdf)",
+      "Shell(pre-commit)",
+      "Shell(python3.10)",
+      "Shell(true)",
+      "WebFetch(github.com)",
+      "Shell(base64)",
+      "Mcp(mcp-router:list_datasources)",
+      "Shell(python3)",
+      "Shell(wc)",
+      "Shell(sort)",
+      "Shell(tail)",
+      "Shell(od)",
+      "Shell(grep)",
+      "Mcp(mcp-router:search_documentation)",
+      "Shell(set)",
+      "Shell(cut)",
+      "Shell(mktemp)",
+      "Shell(source)",
+      "Shell(exit)",
+      "Shell($test_name)",
+      "Shell(rm)",
+      "Shell(shellcheck)",
+      "Shell(go)",
+      "WebFetch(support.circleci.com)",
+      "Write(/Users/joe.mccall/src/github.com/ConsultingMD/image-builder/bin/post-pr-comment)",
+      "Shell(bin/test/run-tests)",
+      "Shell(whoami)",
+      "Shell(gofmt)",
+      "Shell(git check-ignore)",
+      "Shell(git log)",
+      "Shell(openspec)",
+      "WebFetch(raw.githubusercontent.com)",
+      "Shell(diff)",
+      "WebFetch(docs.statsig.com)",
+      "Shell(/usr/local/go/bin/go)",
+      "Shell(uniq)",
+      "Shell(lsof)",
+      "Shell(ps)",
+      "Shell(awk)",
+      "Shell(printf)",
+      "Shell(curl)",
+      "Shell(kubectl:--context rancher-desktop*)",
+      "Shell(kubectl:* --context rancher-desktop*)",
+      "Shell(tng:* --help)",
+      "Shell(tng dev)",
+      "Mcp(mcp-router:search)",
+      "Mcp(mcp-router:code_search)",
+      "Mcp(mcp-router:read_document)",
+      "Mcp(mcp-router:chat)",
+      "Mcp(mcp-router:employee_search)",
+      "Shell(shift)",
+      "Shell(run)",
+      "WebFetch(www.apollographql.com)",
+      "Shell(git show-ref)",
+      "Shell(date)",
+      "WebFetch(grafana.includedhealth.com)",
+      "Shell(git diff)",
+      "Shell(gcx)",
+      "Shell(git fetch)",
+      "Shell(docker ps)",
+      "Shell(timeout)",
+      "Shell(env)",
+      "Shell(./neo)",
+      "Shell(~/.local/share/mise/shims/openspec)",
+      "Shell(pgrep)",
+      "Write(/Users/joe.mccall/.local/share/agent-neo/workspaces/APL-612/app/permanentflags/processor_test.go)",
+      "Write(/Users/joe.mccall/.local/share/agent-neo/workspaces/APL-612/app/permanentflags/slack_notifier_test.go)",
+      "Write(/Users/joe.mccall/.local/share/agent-neo/workspaces/APL-612/app/permanentflags/slack_notifier.go)",
+      "Write(/Users/joe.mccall/.local/share/agent-neo/workspaces/APL-612/app/permanentflags/config.go)",
+      "Write(/Users/joe.mccall/.local/share/agent-neo/workspaces/APL-612/app/permanentflags/processor.go)",
+      "Shell(kill)",
+      "Shell(sleep)",
+      "Shell(pkill)",
+      "Shell(gosec)",
+      "Shell(mise)",
+      "Mcp(plugin-context-mode-context-mode:ctx_batch_execute)",
+      "Mcp(plugin-context-mode-context-mode:ctx_execute_file)",
+      "Write(/Users/joe.mccall/src/github.com/ConsultingMD/statsig-hooks/platform/observability.yaml)",
+      "Shell(twg)",
+      "Mcp(plugin-context-mode-context-mode:ctx_execute)",
+      "Mcp(mcp-router:list-items)",
+      "Mcp(plugin-context-mode-context-mode:ctx_search)",
+      "Shell(tng)",
+      "Shell(mv)",
+      "Mcp(mcp-router:get-item-details)",
+      "Mcp(mcp-router:list-occurrences)",
+      "Mcp(mcp-router:get-deployments)",
+      "Mcp(plugin-context7-plugin-context7:resolve-library-id)",
+      "Mcp(plugin-context7-plugin-context7:query-docs)",
+      "Mcp(mcp-router:ApolloDocsSearch)",
+      "Mcp(plugin-context-mode-context-mode:ctx_fetch_and_index)",
+      "Mcp(mcp-router:search_docs)",
+      "Shell(xargs)",
+      "Shell(siggy)",
+      "Shell(git -C)",
+      "Shell(git status)",
+      "Mcp(plugin-glean-glean_plugin:find_skills_and_tools)",
+      "Mcp(plugin-glean-glean_plugin:setup)",
+      "Shell(dirname)",
+      "Shell(git remote)",
+      "Mcp(mcp-router:get_latest_pipeline_status)",
+      "Mcp(mcp-router:list_followed_projects)",
+      "Mcp(plugin-glean-glean_plugin:run_tool)",
+      "Mcp(mcp-router:get_build_failure_logs)",
+      "Mcp(plugin-glean-glean_plugin:chat)",
+      "Mcp(plugin-glean-glean_plugin:read_document)",
+      "Mcp(mcp-router:get_job_test_results)",
+      "Shell(cp)",
+      "WebFetch(mise.jdx.dev)",
+      "Shell(chmod)",
+      "Shell(./bin/generate-tool-versions-bridge)",
+      "Shell(tar)",
+      "Shell(docker build)",
+      "Shell(docker run)",
+      "Shell(git ls-files)",
+      "Mcp(plugin-glean-glean_plugin:search)",
+      "Shell(git grep)",
+      "Shell(git merge-base)"
+    ],
+    "deny": []
+  },
+  "version": 1,
+  "editor": {
+    "vimMode": false
+  },
+  "display": {
+    "showLineNumbers": false,
+    "showThinkingBlocks": false,
+    "showStatusIndicators": false,
+    "showStatusLineRunningTime": false,
+    "mode": "zen"
+  },
+  "notifications": true,
+  "hints": true,
+  "modelSlashCommands": true,
+  "steering": true,
+  "rewind": true,
+  "model": {
+    "modelId": "auto-smart",
+    "displayModelId": "auto-smart",
+    "displayName": "Auto Cost",
+    "displayNameShort": "Auto Cost",
+    "aliases": [],
+    "maxMode": false
+  },
+  "hasChangedDefaultModel": true,
+  "maxMode": false,
+  "modelParameters": {
+    "composer-2.5": [
+      {
+        "id": "fast",
+        "value": "false"
+      }
+    ],
+    "default": [],
+    "auto-smart": [
+      {
+        "id": "optimize_for",
+        "value": "cost"
+      }
+    ],
+    "grok-4.6": [
+      {
+        "id": "effort",
+        "value": "high"
+      },
+      {
+        "id": "fast",
+        "value": "false"
+      }
+    ],
+    "grok-4.7": [
+      {
+        "id": "context",
+        "value": "256k"
+      },
+      {
+        "id": "reasoning_effort",
+        "value": "high"
+      },
+      {
+        "id": "fast",
+        "value": "false"
+      }
+    ]
+  },
+  "selectedModel": {
+    "modelId": "auto-smart",
+    "parameters": [
+      {
+        "id": "optimize_for",
+        "value": "cost"
+      }
+    ]
+  },
+  "modelSelectionHistory": [
+    "auto-smart",
+    "grok-4.7",
+    "composer-2.5",
+    "grok-4.6"
+  ],
+  "exploreSubagentModel": "default",
+  "privacyCache": {
+    "ghostMode": true,
+    "privacyMode": 2,
+    "updatedAt": 1790692671127
+  },
+  "autoReviewAvailabilityCache": {
+    "backendUrl": "https://api2.cursor.sh",
+    "authCacheKey": "auth:auth0|user_01K03BV3XJ3GBTHA84W5JYG6Y0",
+    "teamId": 13891913,
+    "available": true,
+    "updatedAt": 1786993270669
+  },
+  "serverConfigCache": {
+    "backendUrl": "https://api2.cursor.sh",
+    "authCacheKey": "auth:auth0|user_01K03BV3XJ3GBTHA84W5JYG6Y0",
+    "teamId": 13891913,
+    "agentUrlConfig": {
+      "agentUrl": "https://agentn.us.api5.cursor.sh",
+      "agentnUrl": "https://agentn.us.api5.cursor.sh"
+    },
+    "cliSandboxDefaultEnabled": false,
+    "serverHttp2Config": 0,
+    "updatedAt": 1790689027085
+  },
+  "authInfo": {
+    "email": "joe.mccall@includedhealth.com",
+    "displayName": "Joe McCall",
+    "teamId": 13891913,
+    "teamName": "Included Health",
+    "userId": 246914873,
+    "authId": "auth0|user_01K03BV3XJ3GBTHA84W5JYG6Y0"
+  },
+  "network": {
+    "useHttp1ForAgent": false
+  },
+  "approvalMode": "allowlist",
+  "autoAcceptWebSearch": true,
+  "sandbox": {
+    "mode": "enabled",
+    "networkAccess": "allow_all"
+  },
+  "runEverythingSettingsPromptStreak": 0,
+  "attribution": {
+    "attributeCommitsToAgent": true,
+    "attributePRsToAgent": true
+  }
+}
