@@ -13,6 +13,7 @@ minimum_release_age = "0"
 "~/.config/btop" = { mode = "track" }
 "~/.config/ghostty" = { mode = "track" }
 "~/.config/git/ignore" = { mode = "track" }
+"~/.config/global-agent" = { mode = "track" }
 "~/.config/helix" = { mode = "track" }
 "~/.config/jj/config.toml" = { mode = "track" }
 "~/.config/karabiner/karabiner.json" = { mode = "track" }

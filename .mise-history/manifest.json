@@ -26,6 +26,12 @@
       "variants": []
     },
     {
+      "path": "home/.config/global-agent",
+      "autosave": true,
+      "encrypt": false,
+      "variants": []
+    },
+    {
       "path": "home/.config/helix",
       "autosave": true,
       "encrypt": false,
